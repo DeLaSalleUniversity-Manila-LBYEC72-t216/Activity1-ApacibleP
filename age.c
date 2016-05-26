@@ -10,6 +10,7 @@ int main()
 	scanf("%d", &b);	
 	a=2016-b;
 	printf("Approximate Age based on birth year: %d", a);
+	system("PAUSE");
 	return 0;
 		
 }
