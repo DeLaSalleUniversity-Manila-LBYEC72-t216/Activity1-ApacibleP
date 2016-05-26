@@ -41,3 +41,23 @@ int main()
 }
 ```
 ![](triangle.PNG)
+
+```
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main() 
+{
+	int b,a;
+	printf("Input birth year: ");
+	scanf("%d", &b);	
+	a=2016-b;
+	printf("Approximate Age based on birth year: %d\n", a);
+	system("PAUSE");
+	return 0;
+		
+}
+```
+![](age.PNG)
